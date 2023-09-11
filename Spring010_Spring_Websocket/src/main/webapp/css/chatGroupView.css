@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+	body {
+		padding: 0px;
+		font-family: 'Jeju Gothic', sans-serif;
+	}
+	
+	table {
+		border: 1px solid #4b4b4b;
+		border-collapse: collapse;	
+		margin: 10px auto;
+	}
+
+	.receive_msg{
+		padding: 3px;
+		width: 350px;
+		height: 400px;
+		overflow: auto;
+		overflow-x: hidden;
+		background: #f3f3f3; 
+	}
+	
+	.listTitle{
+		height: 50px;
+	 	vertical-align: top;
+	 	font-size: 12px;
+	 	font-weight: bold;
+	}
+	
+	.memList{
+		vertical-align: top;
+	}
+	
+	.chat_div{
+		text-align: center;
+	}
+		
+	.chat{
+		width:400px;
+		height: 35px;
+		padding: 5px;
+		margin-top: 10px;
+		margin-left:  5px;
+	}
+	.chat_btn{
+		margin-top: 10px;
+		height: 35px;
+	}
+	.chat:focus{
+		outline: none;
+	}
+	
+	
+	.memListBox{
+	text-align: center;
+	vertical-align: text-top;
+	padding: 10px;
+	overflow: auto; 
+	}
